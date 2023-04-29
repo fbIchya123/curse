@@ -1,0 +1,301 @@
+p{
+    margin: 0;
+
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('styles/fonts/Inter-V.ttf');
+}
+body{
+/*    background-image: url(img/fon.jpg);*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html{
+    font-family: 'Inter';
+}
+
+
+
+/* Хедер */
+.logotip{
+    width: 164px;
+    height: 171px;
+}
+.logotip-div{
+    display: flex;
+    align-self: flex-start;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+
+
+
+}
+.ssilka{
+    display: flex;
+    width: 200vh;
+    justify-content: space-around;
+
+}
+
+.mainurl{
+
+    display: flex;
+    text-decoration: none;
+}
+.mainurlurl{
+    color: black;
+    text-decoration: none;
+}
+.profurl{
+    display: flex;
+}
+.profurlurl{
+    color: black;
+    text-decoration: none;
+}
+
+.litlog{
+    display: flex;
+    width: 24px;
+    height: 22px;
+    margin-left: 5px;
+}
+
+
+
+
+/* Личный кабинет */
+.fotoprof{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
+}
+.foto{
+    width: 300px;
+    height: 300px;
+    left: 100px;
+    top: 230px;
+
+}
+.zayavki{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-right: 10%;
+}
+
+.vashi{
+display: flex;
+justify-content: center;
+}
+
+.add{
+display: flex;
+justify-content: flex-end;
+}
+
+.zav{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+/* Основная страница */
+.kolvo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+#schetchik{
+width: 420px;
+height: 220px;
+background: #dfdfdf;
+border:1px solid black;
+}
+
+.rechen{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+}
+
+
+.obshie{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#square {
+    width: 220px;
+    height: 320px;
+    background: #ffffff;
+    border:1px solid #000000 ;
+    border-radius: 10px;
+
+}
+
+.cat{
+    display: flex;
+    width:15px;
+    height: 15px;
+}
+
+.categor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    color: #ffffff;
+    background-color: black;
+
+    align-content: flex-start;
+    font-size: 15px;
+    gap: 2px;
+}
+
+.descrypt_request{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 270px;
+}
+
+.nazvan{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    font-size: 20px;
+}
+
+.posle{
+
+display: flex;
+align-items: center;
+flex-direction: column;
+font-size: 20px;
+}
+
+.poslefoto{
+width: 120px;
+height: 150px;
+background: #000000;
+
+}
+
+.data{
+    display: flex;
+    justify-content: flex-end;
+    font-size:15px ;
+    padding-right: 2%;
+}
+
+
+/* Добавление заявок */
+
+.dobavka{
+    width: 20vw;
+    margin: 0 auto;
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start
+
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+
+.dobavka_verx{
+    display: flex;
+    flex-direction: row;
+    width: 105%;
+}
+
+.addspisok{
+
+    margin: 10px;
+    font-size: 15px;
+    background-color:inherit;
+    border: 1.9px solid #000000;
+
+}
+
+.addopis{
+    width: 375px;
+    height: 100px;
+    margin: 10px;
+    font-size: 15px;
+    background-color:inherit;
+    border: 1.9px solid #000000;
+}
+
+.addnazv{
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+    font-size: 15px;
+    background-color:inherit;
+    border: 1.9px solid #000000;
+}
+
+.addfoto{
+    width: 190px;
+    height: 30px;
+    margin: 10px;
+    font-size: 15px;
+    background-color:inherit;
+    border: 1.9px solid #000000;
+}
+
+.addfoto_div{
+    display: flex;
+}
+
+.addbutton{
+    margin-left: 10px;
+}
+
+.addbutton_div{
+     display: flex;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
